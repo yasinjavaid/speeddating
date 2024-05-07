@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolygonPrototype_Global_Grid_05
+  m_Shader: {fileID: 4800000, guid: 630b07f1142b0473fbb4a366f4ac637c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Grid:
+        m_Texture: {fileID: 2800000, guid: 2a09470ada0c47849ad79d26363f8e4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Falloff: 50
+    - _GridScale: 1
+    - _OverlayAmount: 0.5
+    - _RampSmooth: 0.1
+    - _RampThreshold: 0.5
+    - __dirty: 1
+    - __dummy__: 0
+    m_Colors:
+    - _BaseColor: {r: 0.9372549, g: 0.50980395, b: 0.21176471, a: 0}
+    - _Color: {r: 0.67058825, g: 0.13725491, b: 0.27450982, a: 0}
+    - _HColor: {r: 0.785, g: 0.785, b: 0.785, a: 1}
+    - _SColor: {r: 0.195, g: 0.195, b: 0.195, a: 1}
